@@ -1,6 +1,6 @@
 # yieldable
 
-Make a javascript function yieldable:
+Make functions/methods yieldable.
 
 ## Installation
 
@@ -10,10 +10,10 @@ npm install make-yieldable --save
 
 ## Example
 
-Here is an example how to use yieldable with contextual functions: 
+Here is an example how to use yieldable with an object method: 
 
 ```js
-var yieldable = require('yieldable');
+var yieldable = require('make-yieldable');
 var SomeClass = require('some-package').SomeClass;
 
 var koa = require('koa');
@@ -29,7 +29,7 @@ app.use(function *() {
 And if you want to use a static function:
 
 ```js
-var yieldable = require('yieldable');
+var yieldable = require('make-yieldable');
 var readFile = require('fs').readFile;
 
 var koa = require('koa');
