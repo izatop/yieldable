@@ -5,7 +5,7 @@ Make a javascript function yieldable:
 ## Installation
 
 ```
-npm install git+https://github.com/izatop/yieldable.git
+npm install make-yieldable --save
 ```
 
 ## Example

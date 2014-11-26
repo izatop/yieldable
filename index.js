@@ -23,8 +23,8 @@ function yieldable(callable, owner, params) {
     }
 
     return function (fn) {
-        params.push(fn); // push fn to end
-        owner[callable].apply(owner, params);
+        params.push(fn);
+        callable.apply(owner, params);
     }
 }
 
