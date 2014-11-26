@@ -1,0 +1,6 @@
+{
+    "name": "yieldable",
+    "description": "Make a function yieldable.",
+    "version": "0.1.0",
+    "main": "index.js"
+}
