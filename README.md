@@ -5,7 +5,7 @@ Make a javascript function yieldable:
 ## Installation
 
 ```
-npm install yieldable --save
+npm install git+https://github.com/izatop/yieldable.git
 ```
 
 ## Example
@@ -40,3 +40,7 @@ app.use(function *() {
     this.body = yield yieldable(readFile, ['/path/to/file...']);
 });
 ```
+
+# License
+
+  MIT

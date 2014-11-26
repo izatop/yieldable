@@ -1,6 +1,9 @@
 {
     "name": "yieldable",
     "description": "Make a function yieldable.",
+    "author": "Artur Bier <izatop@gmail.com>",
     "version": "0.1.0",
-    "main": "index.js"
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {}
 }
